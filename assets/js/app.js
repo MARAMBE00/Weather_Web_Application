@@ -357,4 +357,4 @@ export const updateWeather = function (lat, lon){
     });
 }
 
-export const error404 = function () { }
+export const error404 = () => errorContent.style.display = "flex";
